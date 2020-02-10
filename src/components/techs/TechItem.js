@@ -1,8 +1,8 @@
-import React from "react";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
+import React from "./node_modules/react";
+import { connect } from "./node_modules/react-redux";
+import PropTypes from "./node_modules/prop-types";
 import { deleteTech } from "../../actions/techActions";
-import M from "materialize-css/dist/js/materialize.min.js";
+import M from "./node_modules/materialize-css/dist/js/materialize.min.js.js";
 
 const TechItem = ({ tech: { id, firstName, lastName }, deleteTech }) => {
   const onDelete = () => {

@@ -1,4 +1,4 @@
-import { combineReducers } from "redux";
+import { combineReducers } from "./node_modules/redux";
 import logReducer from "./logReducer";
 import techReducer from "./techReducer";
 

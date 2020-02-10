@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState } from "./node_modules/react";
 import TechSelectOption from "../techs/TechSelectOption";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
+import { connect } from "./node_modules/react-redux";
+import PropTypes from "./node_modules/prop-types";
 import { addLog } from "../../actions/logActions";
-import M from "materialize-css/dist/js/materialize.min.js";
+import M from "./node_modules/materialize-css/dist/js/materialize.min.js.js";
 
 const AddLogModal = ({ addLog }) => {
   const [message, setMessage] = useState("");
