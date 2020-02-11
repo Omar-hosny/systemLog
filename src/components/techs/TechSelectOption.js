@@ -1,6 +1,6 @@
-import React, { useEffect } from "./node_modules/react";
-import { connect } from "./node_modules/react-redux";
-import PropTypes from "./node_modules/prop-types";
+import React, { useEffect } from "react";
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
 import { getTechs } from "../../actions/techActions";
 
 const TechSelectOption = ({ getTechs, tech: { techs, loading } }) => {

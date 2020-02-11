@@ -1,6 +1,6 @@
-import React, { useRef } from "./node_modules/react";
-import { connect } from "./node_modules/react-redux";
-import PropTypes from "./node_modules/prop-types";
+import React, { useRef } from "react";
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
 import { searchLogs } from "../../actions/logActions";
 
 const SearchBar = ({ searchLogs }) => {

@@ -1,8 +1,8 @@
-import React, { useState } from "./node_modules/react";
-import { connect } from "./node_modules/react-redux";
-import PropTypes from "./node_modules/prop-types";
+import React, { useState } from "react";
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
 import { addTech } from "../../actions/techActions";
-import M from "./node_modules/materialize-css/dist/js/materialize.min.js.js";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 const AddTechModal = ({ addTech }) => {
   const [firstName, setFirstName] = useState("");

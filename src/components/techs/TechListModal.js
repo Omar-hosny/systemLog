@@ -1,7 +1,7 @@
-import React, { useEffect } from "./node_modules/react";
+import React, { useEffect } from "react";
 import TechItem from "./TechItem";
-import PropTypes from "./node_modules/prop-types";
-import { connect } from "./node_modules/react-redux";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import { getTechs } from "../../actions/techActions";
 
 const TechListModal = ({ getTechs, tech: { techs, loading } }) => {

@@ -1,9 +1,9 @@
-import React from "./node_modules/react";
-import PropTypes from "./node_modules/prop-types";
-import { connect } from "./node_modules/react-redux";
+import React from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import { deleteLog, setCurrent } from "../../actions/logActions";
-import Moment from "./node_modules/react-moment";
-import M from "./node_modules/materialize-css/dist/js/materialize.min.js.js";
+import Moment from "react-moment";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 const LogItem = ({ log, deleteLog, setCurrent }) => {
   const onDelete = () => {

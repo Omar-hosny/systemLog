@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "./node_modules/react";
+import React, { Fragment, useEffect } from "react";
 import SearchBar from "./components/layout/SearchBar";
 import Logs from "./components/logs/Logs";
 import AddBtn from "./components/layout/AddBtn";
@@ -7,11 +7,11 @@ import EditLogModal from "./components/logs/EditLogModal";
 import AddTechModal from "./components/techs/AddTechModal";
 import TechListModal from "./components/techs/TechListModal";
 
-import { Provider } from "./node_modules/react-redux";
+import { Provider } from "react-redux";
 import store from "./store";
 
-import "./node_modules/materialize-css/dist/css/materialize.min.css";
-import M from "./node_modules/materialize-css/dist/js/materialize.min.js.js";
+import "materialize-css/dist/css/materialize.min.css";
+import M from "materialize-css/dist/js/materialize.min.js";
 import "./App.css";
 
 const App = () => {
